@@ -11,7 +11,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: "Bồ Hóng Đội Thúng Đáng Yêu",
-    category: "len mềm",
+    category: "Len Mềm",
     price: 55000,
     originalPrice: 69000, // Price logic from screenshot seems flipped or range, using single price
     rating: 5,
@@ -41,7 +41,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: "Vòng Tay Misty Forest",
-    category: "hạt cườm",
+    category: "Hạt Cườm",
     price: 34000,
     originalPrice: 39000,
     rating: 5,
@@ -73,7 +73,7 @@ export const products: Product[] = [
     name: "BST Pin Cài Hoạt Hình Ghibli",
     category: "Đất Màu",
     price: 89000,
-    rating: 4,
+    rating: 5,
     image: "/assets/pinghibli.png",
   },
   {
@@ -153,7 +153,7 @@ export const products: Product[] = [
   {
     id: 16,
     name: "Pin Cài Hình Nhân Vật Thiết Kế theo yêu cầu",
-    category: "Đất Màu",
+    category: "Made4U",
     price: 68000,
     originalPrice: 79000,
     rating: 5,
