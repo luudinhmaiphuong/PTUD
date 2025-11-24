@@ -8,6 +8,8 @@ import Login from './pages/Login';
 import Cart from './pages/Cart';
 import Home from './pages/Home';
 import Wishlist from './pages/Wishlist';
+import ProductDetail from './pages/ProductDetail';
+import Checkout from './pages/Checkout';
 
 const App: React.FC = () => {
   return (
@@ -18,9 +20,11 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/login" element={<Login />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
             <Route path="/wishlist" element={<Wishlist />} />
             {/* Fallback route */}
             <Route path="*" element={<Navigate to="/" replace />} />
